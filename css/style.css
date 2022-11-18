@@ -1,0 +1,192 @@
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+.main-bg {
+    background-color: #F1F1F1;
+}
+
+/* .main-color {
+    color: rgb(114, 2, 114);
+} */
+
+/* banner */
+
+.banner {
+    /* border: 3px solid rebeccapurple; */
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../image/balonku-store.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    /* border: 4px solid coral; */
+    margin-top: 50px;
+    word-spacing: .5em;
+    letter-spacing: .3em;
+}
+
+span {
+    color: #ff8502d5;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-banner {
+    padding: 1.2em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #d27e24;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-banner:hover {
+    background-color: #ff8502d5;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn-banner:active {
+    transform: translateY(-1px);
+}
+
+.cek {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* GALLERY */
+
+.gallery {
+    height: 100%;
+}
+
+.carousel-inner {
+    /* border: 5px solid blue; */
+    height: 100%;
+}
+
+.carousel-item img {
+   
+    height: 90vh;
+    /* border: 5px solid black; */
+}
+.crop {
+    object-fit: cover;
+}
+
+
+/* .slider {
+    height: 100%;
+} */
+
+/* .partner {
+    background-color: aquamarine;
+} */
+
+/* promo */
+
+.card-promo {
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.hovered-card {
+    transition: .3s;
+}
+
+.hovered-card:hover{
+transform: scale(1.1);
+}
+
+.card-promo:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/* pelayanan */
+
+.pelayanan {
+    background-color: #700970;
+}
+
+.pelayanan-content {
+    transition: .3s;
+}
+
+.pelayanan-content:hover {
+    transform: scale(1.1);
+}
+
+.pelayanan .icon-circle {
+    width: 90px;
+    height: 90px;
+    border: solid 2px;
+}
+
+/* menu favorit */
+
+.menu-favorit {
+    background-color: rgba(243, 243, 243);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+/* testimony */
+
+.testimony-content {
+    transition: .3s;
+}
+
+.testimony-content:hover {
+    transform: scale(1.1);
+}
+
+/* subscribe */
+
+.subscribe-content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* produk banner */
+.produk-banner {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+}
